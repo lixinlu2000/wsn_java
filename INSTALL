@@ -1,0 +1,18 @@
+===================================================
+= NHSensorSim - Intstallation and Build Instructions =
+===================================================
+
+These instructions describe how to install NHSensorSim.  Two forms are
+available: The source distribution comes with the source code and must
+be compiled to install it. The pre-built distribution does not include
+the source code but is pre-compiled and is ready to run.
+
+Software Dependencies
+---------------------
+
+    * Java(TM) 2 SDK: Version 1.4.0 or greater
+    * ant: Version 1.5.0 or greater (to re-build the code after any
+            changes or to run functional tests)
+
+Standard Build
+--------------

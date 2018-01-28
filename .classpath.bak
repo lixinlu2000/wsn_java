@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="external-lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="external-lib/jacl.jar"/>
+	<classpathentry kind="lib" path="external-lib/tcljava.jar"/>
+	<classpathentry kind="lib" path="external-lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="external-lib/jcommon-1.0.0.jar"/>
+	<classpathentry kind="lib" path="external-lib/jfreechart-1.0.1.jar"/>
+	<classpathentry kind="lib" path="external-lib/junit.jar"/>
+	<classpathentry kind="lib" path="external-lib/jmi.jar"/>
+	<classpathentry kind="lib" path="external-lib/voronoi.jar"/>
+	<classpathentry kind="lib" path="external-lib/jmi.jar"/>
+	<classpathentry kind="lib" path="external-lib/trove-0.1.8.jar"/>
+	<classpathentry kind="lib" path="matlab/resta/resta/distrib/resta.jar"/>
+	<classpathentry kind="lib" path="external-lib/commons-math-2.2/commons-math-2.2.jar" sourcepath="external-lib/commons-math-2.2/commons-math-2.2-sources.jar"/>
+	<classpathentry kind="output" path="class"/>
+</classpath>

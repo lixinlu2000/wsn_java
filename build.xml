@@ -1,0 +1,90 @@
+<project name="NHSensorSim" default="dist" basedir=".">
+
+  <property environment="env"/>
+
+  <target name="init">
+      <tstamp/>
+  </target>
+
+  <property name="src" value="src"/>
+  <property name="build" value="build"/>
+  <property name="jardir" value="lib"/>
+  <property name="docdir" value="doc"/>
+  <property name="releasedir" value="release"/>
+  <property name="version" value="1.0"/>
+  <property environment="env"/>
+
+  <path id="classpath">
+    <fileset dir="lib">
+      <include name="*.jar"/>
+    </fileset>
+    <fileset dir="external-lib">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <target name="prepare" depends="init">
+    <mkdir dir="${build}/classes"/>
+    <mkdir dir="${jardir}"/>
+  </target>
+
+  <target name="build" depends="prepare">
+    <javac deprecation="yes" srcdir="${src}" debug="yes"
+    destdir="${build}/classes">
+      <classpath refid="classpath"/>
+    </javac>
+  </target>
+
+  <target name="dist" depends="build">
+    <jar jarfile="${jardir}/${ant.project.name}.jar" basedir="${build}/classes"/>
+  </target>
+
+  <target name="release" depends="dist, doc">
+    <mkdir dir="${releasedir}"/>
+    <mkdir dir="${releasedir}/${ant.project.name}-${version}"/>
+    <copy todir="${releasedir}/${ant.project.name}-${version}">
+      <fileset dir="." 
+          includes="bin/ examples/ lib/ external-lib/ doc/api/ src/ doc/userguide.pdf BUGS INSTALL LICENSE README TODO build.xml"/>
+    </copy>
+    <tar tarfile="${releasedir}/${ant.project.name}-${version}.tar.gz"
+        basedir="${releasedir}"
+        includes="${ant.project.name}-${version}/**"
+        excludes="${ant.project.name}-${version}/bin/**"
+        compression="gzip">
+      <tarfileset dir="${releasedir}" mode="755">
+        <include name="${ant.project.name}-${version}/bin/**"/>
+      </tarfileset>
+    </tar>
+    <delete dir="${releasedir}/${ant.project.name}-${version}"/>
+
+  </target>
+
+  <target name="doc" depends="init">
+    <mkdir dir="${docdir}"/>
+    <javadoc packagenames=""
+	sourcepath="${src}"
+        Private="false"
+	Author="true"
+	destdir="${docdir}/api">
+      <classpath refid="classpath"/>
+    </javadoc>
+  </target>
+
+  <target name="func-test" depends="dist">
+      <exec executable="bin/NHSensorSimTest.sh" failonerror="true"/>
+  </target>    
+
+  <target name="clean">
+    <delete dir="${build}"/>
+  </target>
+
+  <target name="veryclean" depends="clean">
+    <delete dir="${jardir}"/>
+    <delete dir="${releasedir}"/>
+  </target>
+
+  <target name="cleandoc">
+    <delete dir="${docdir}/api"/>
+  </target>
+
+</project>

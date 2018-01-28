@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: NHSensor.NHSensorSim.ui.mainFrame.MainFrame
+Class-Path: . external-lib/jacl.jar external-lib/log4j-1.2.15.jar external-lib/tcljava.jar external-lib/substance.jar
+Created-By: Atos

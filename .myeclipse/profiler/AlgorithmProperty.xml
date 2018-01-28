@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">NHSensor.NHSensorSim.algorithm.**
+NHSensor.NHSensorSim.analyser.**
+NHSensor.NHSensorSim.cds.**
+NHSensor.NHSensorSim.chart.**
+NHSensor.NHSensorSim.core.**
+NHSensor.NHSensorSim.dataset.**
+NHSensor.NHSensorSim.demo.**
+NHSensor.NHSensorSim.end.**
+NHSensor.NHSensorSim.events.**
+NHSensor.NHSensorSim.exception.**
+NHSensor.NHSensorSim.experiment.**
+NHSensor.NHSensorSim.failure.**
+NHSensor.NHSensorSim.link.**
+NHSensor.NHSensorSim.math.**
+NHSensor.NHSensorSim.network.**
+NHSensor.NHSensorSim.papers.ALLRISC.**
+NHSensor.NHSensorSim.papers.AdaptiveGridTraverseRing.**
+NHSensor.NHSensorSim.papers.CKNN.**
+NHSensor.NHSensorSim.papers.CRISC.**
+NHSensor.NHSensorSim.papers.CSA.**
+NHSensor.NHSensorSim.papers.E2STA.**
+NHSensor.NHSensorSim.papers.EDC.CDA_GBA.**
+NHSensor.NHSensorSim.papers.ERISC.**
+NHSensor.NHSensorSim.papers.ESA.**
+NHSensor.NHSensorSim.papers.EST.**
+NHSensor.NHSensorSim.papers.GKNN.**
+NHSensor.NHSensorSim.papers.HSA.**
+NHSensor.NHSensorSim.papers.LKNN.**
+NHSensor.NHSensorSim.papers.LRISC.**
+NHSensor.NHSensorSim.papers.LSA.**
+NHSensor.NHSensorSim.papers.PEVA.**
+NHSensor.NHSensorSim.papers.RESA.**
+NHSensor.NHSensorSim.papers.RISC.**
+NHSensor.NHSensorSim.papers.ROC.**
+NHSensor.NHSensorSim.papers.RSA.**
+NHSensor.NHSensorSim.papers.SAAA.**
+NHSensor.NHSensorSim.privacy.**
+NHSensor.NHSensorSim.query.**
+NHSensor.NHSensorSim.routing.gpsr.**
+NHSensor.NHSensorSim.sampling.**
+NHSensor.NHSensorSim.sensor.**
+NHSensor.NHSensorSim.shape.**
+NHSensor.NHSensorSim.sqlparser.**
+NHSensor.NHSensorSim.test.**
+NHSensor.NHSensorSim.tools.**
+NHSensor.NHSensorSim.ui.**
+NHSensor.NHSensorSim.util.**
+com.mxgraph.examples.swing.**
+delaunay.**
+example.remote.**
+matlabServer.**
+matlabcontrol.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">NHSensor.NHSensorSim.algorithm.*,
+NHSensor.NHSensorSim.analyser.*,
+NHSensor.NHSensorSim.cds.*,
+NHSensor.NHSensorSim.chart.*,
+NHSensor.NHSensorSim.core.*,
+NHSensor.NHSensorSim.dataset.*,
+NHSensor.NHSensorSim.demo.*,
+NHSensor.NHSensorSim.end.*,
+NHSensor.NHSensorSim.events.*,
+NHSensor.NHSensorSim.exception.*,
+NHSensor.NHSensorSim.experiment.*,
+NHSensor.NHSensorSim.failure.*,
+NHSensor.NHSensorSim.link.*,
+NHSensor.NHSensorSim.math.*,
+NHSensor.NHSensorSim.network.*,
+NHSensor.NHSensorSim.papers.ALLRISC.*,
+NHSensor.NHSensorSim.papers.AdaptiveGridTraverseRing.*,
+NHSensor.NHSensorSim.papers.CKNN.*,
+NHSensor.NHSensorSim.papers.CRISC.*,
+NHSensor.NHSensorSim.papers.CSA.*,
+NHSensor.NHSensorSim.papers.E2STA.*,
+NHSensor.NHSensorSim.papers.EDC.CDA_GBA.*,
+NHSensor.NHSensorSim.papers.ERISC.*,
+NHSensor.NHSensorSim.papers.ESA.*,
+NHSensor.NHSensorSim.papers.EST.*,
+NHSensor.NHSensorSim.papers.GKNN.*,
+NHSensor.NHSensorSim.papers.HSA.*,
+NHSensor.NHSensorSim.papers.LKNN.*,
+NHSensor.NHSensorSim.papers.LRISC.*,
+NHSensor.NHSensorSim.papers.LSA.*,
+NHSensor.NHSensorSim.papers.PEVA.*,
+NHSensor.NHSensorSim.papers.RESA.*,
+NHSensor.NHSensorSim.papers.RISC.*,
+NHSensor.NHSensorSim.papers.ROC.*,
+NHSensor.NHSensorSim.papers.RSA.*,
+NHSensor.NHSensorSim.papers.SAAA.*,
+NHSensor.NHSensorSim.privacy.*,
+NHSensor.NHSensorSim.query.*,
+NHSensor.NHSensorSim.routing.gpsr.*,
+NHSensor.NHSensorSim.sampling.*,
+NHSensor.NHSensorSim.sensor.*,
+NHSensor.NHSensorSim.shape.*,
+NHSensor.NHSensorSim.sqlparser.*,
+NHSensor.NHSensorSim.test.*,
+NHSensor.NHSensorSim.tools.*,
+NHSensor.NHSensorSim.ui.*,
+NHSensor.NHSensorSim.util.*,
+com.mxgraph.examples.swing.*,
+delaunay.*,
+example.remote.*,
+matlabServer.*,
+matlabcontrol.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+</properties>

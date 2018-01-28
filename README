@@ -1,0 +1,69 @@
+===============================================
+= NHSensorSim - README ===========================
+===============================================
+
+NHSensorSim is a wireless sensor network simulation tool written by the nhsenor group in NUAA for the
+purpose of testing query processing algorithms in wireless sensor networks.  This file describes the
+contents of the package.  More detailed documentation can be found in
+the userguide and javadoc in the doc/ directory. 
+
+Author
+-------------
+Name: Liang Liu
+email: liangliu@nuaa.edu.cn
+
+Brief History
+-------------
+
+0.1 - Initial conception of the project.  Very basic infrastructure
+      present. Have implemented TAG, GreedyTAG, FullFlood, SWinFlood, GStar algorithm.
+
+
+License
+-------
+
+
+Software Requirements
+---------------------
+
+NHSensorSim has been tested on i386-Linux systems and MS Windows XP.
+
+To run OptorSim requires:
+ - Java(TM) 2 SDK: Version 1.4.0 or greater
+ - ant: Version 1.5.0 or greater
+
+Documentation
+-------------
+
+
+
+Building/ Installing OptorSim
+-----------------------------
+
+See INSTALL file.
+
+
+Usage
+-----
+
+NHSensorSim.bat 
+
+
+Known BUGS
+----------
+
+See BUGS file.
+
+
+Future Plans
+------------
+
+See TODO file.
+
+
+Contact
+-------
+
+The NHSensorSim external mailing list:
+
+NONE YET

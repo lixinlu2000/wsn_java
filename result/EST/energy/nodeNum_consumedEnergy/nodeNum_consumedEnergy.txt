@@ -1,0 +1,166 @@
+1/270
+paramHashtable({}) answerMessageSize(50) nodeNum(320) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+log4j:WARN No appenders could be found for logger (NHSensor.NHSensorSim.events.CollectDataAroundNodeOrShapeAndSendQueryToANodeEventForIDC).
+log4j:WARN Please initialize the log4j system properly.
+NHSensor.NHSensorSim.exception.SensornetBaseException: There is too much event
+	at NHSensor.NHSensorSim.core.Simulator.handle(Simulator.java:55)
+	at NHSensor.NHSensorSim.events.CollectDataAroundNodeOrShapeAndSendQueryToANodeEventForIDC.handle(CollectDataAroundNodeOrShapeAndSendQueryToANodeEventForIDC.java:55)
+	at NHSensor.NHSensorSim.events.SimpleEventListener.handle(SimpleEventListener.java:19)
+	at NHSensor.NHSensorSim.core.Simulator.handle(Simulator.java:71)
+	at NHSensor.NHSensorSim.events.IDCTraverseSectorInRectEvent.handle(IDCTraverseSectorInRectEvent.java:80)
+	at NHSensor.NHSensorSim.events.SimpleEventListener.handle(SimpleEventListener.java:19)
+	at NHSensor.NHSensorSim.core.Simulator.handle(Simulator.java:71)
+	at NHSensor.NHSensorSim.algorithm.RestaIDCFarMulticastQueryAlg.idcTraverse(RestaIDCFarMulticastQueryAlg.java:252)
+	at NHSensor.NHSensorSim.algorithm.RestaIDCFarMulticastQueryAlg.run(RestaIDCFarMulticastQueryAlg.java:267)
+	at NHSensor.NHSensorSim.papers.EST.RestaIDCFarMulticastQueryEnergyExperiment.run(RestaIDCFarMulticastQueryEnergyExperiment.java:41)
+	at NHSensor.NHSensorSim.papers.EST.ExperimentUtil.energy(ExperimentUtil.java:112)
+	at NHSensor.NHSensorSim.papers.EST.ExperimentUtil.showAndLogEnergy(ExperimentUtil.java:138)
+	at NHSensor.NHSensorSim.papers.EST.energy.NodeNumEnergy.main(NodeNumEnergy.java:24)
+SWinFlood isSuccess(true) consumedEnergy(7924.007999999967) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(81600.0) packetFrameNumNeed(81600.0)
+EcstaAlg isSuccess(true) consumedEnergy(6008.155999999962) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(57700.0) packetFrameNumNeed(57700.0)
+RestaIDCFarMulticastQuery isSuccess(false) consumedEnergy(1242.0279999999882) queryResultCorrectRate(0.2992125984251969) queryNodeNum(0) itineraryNodeSize(87) packetFrameNum(11600.0) packetFrameNumNeed(11600.0)
+2/270
+paramHashtable({}) answerMessageSize(50) nodeNum(480) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(15963.483999999771) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(99050.0) packetFrameNumNeed(99050.0)
+EcstaAlg isSuccess(true) consumedEnergy(12550.79199999981) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(80150.0) packetFrameNumNeed(80150.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(11230.692000001161) queryResultCorrectRate(0.9732620320855615) queryNodeNum(0) itineraryNodeSize(495) packetFrameNum(71400.0) packetFrameNumNeed(71400.0)
+3/270
+paramHashtable({}) answerMessageSize(50) nodeNum(640) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(28379.35199999991) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(130650.0) packetFrameNumNeed(130650.0)
+EcstaAlg isSuccess(true) consumedEnergy(22974.85200000027) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(108150.0) packetFrameNumNeed(108150.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(20269.83200000544) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(529) packetFrameNum(94900.0) packetFrameNumNeed(94900.0)
+4/270
+paramHashtable({}) answerMessageSize(50) nodeNum(800) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(41414.39600000068) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(159700.0) packetFrameNumNeed(159700.0)
+EcstaAlg isSuccess(true) consumedEnergy(33943.024000002035) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(129050.0) packetFrameNumNeed(129050.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(30706.600000007416) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(548) packetFrameNum(113000.0) packetFrameNumNeed(113000.0)
+5/270
+paramHashtable({}) answerMessageSize(50) nodeNum(960) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(60990.88000000444) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(194000.0) packetFrameNumNeed(194000.0)
+EcstaAlg isSuccess(true) consumedEnergy(49388.56800000476) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(157350.0) packetFrameNumNeed(157350.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(44520.140000013496) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(542) packetFrameNum(135250.0) packetFrameNumNeed(135250.0)
+6/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1120) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(89524.39200001051) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(249150.0) packetFrameNumNeed(249150.0)
+EcstaAlg isSuccess(true) consumedEnergy(64887.060000011) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(170250.0) packetFrameNumNeed(170250.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(60704.51200001299) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(560) packetFrameNum(158150.0) packetFrameNumNeed(158150.0)
+7/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1280) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(109952.85200001928) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(254650.0) packetFrameNumNeed(254650.0)
+EcstaAlg isSuccess(true) consumedEnergy(84727.25200001929) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(188900.0) packetFrameNumNeed(188900.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(77608.85199999128) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(569) packetFrameNum(173900.0) packetFrameNumNeed(173900.0)
+8/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1440) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(139270.960000029) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(282500.0) packetFrameNumNeed(282500.0)
+EcstaAlg isSuccess(true) consumedEnergy(106132.83600002274) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(211200.0) packetFrameNumNeed(211200.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(96947.95999996044) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(566) packetFrameNum(193000.0) packetFrameNumNeed(193000.0)
+9/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1600) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(1) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(169970.24000003692) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(310750.0) packetFrameNumNeed(310750.0)
+EcstaAlg isSuccess(true) consumedEnergy(127148.7920000222) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(229900.0) packetFrameNumNeed(229900.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(116593.05199994403) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(557) packetFrameNum(211900.0) packetFrameNumNeed(211900.0)
+10/270
+paramHashtable({}) answerMessageSize(50) nodeNum(320) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(7677.271999999945) queryResultCorrectRate(0.9924242424242424) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(77650.0) packetFrameNumNeed(77650.0)
+EcstaAlg isSuccess(true) consumedEnergy(6181.61199999994) queryResultCorrectRate(0.9924242424242424) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(61400.0) packetFrameNumNeed(61400.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(5847.247999999786) queryResultCorrectRate(0.9924242424242424) queryNodeNum(0) itineraryNodeSize(467) packetFrameNum(57850.0) packetFrameNumNeed(57850.0)
+11/270
+paramHashtable({}) answerMessageSize(50) nodeNum(480) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(17411.507999999732) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(125100.0) packetFrameNumNeed(125100.0)
+EcstaAlg isSuccess(true) consumedEnergy(13095.76399999981) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(86050.0) packetFrameNumNeed(86050.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(11981.028000001581) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(555) packetFrameNum(81600.0) packetFrameNumNeed(81600.0)
+12/270
+paramHashtable({}) answerMessageSize(50) nodeNum(640) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(27602.1559999999) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(137950.0) packetFrameNumNeed(137950.0)
+EcstaAlg isSuccess(true) consumedEnergy(22897.45600000064) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(117200.0) packetFrameNumNeed(117200.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(20318.10000000496) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(558) packetFrameNum(102000.0) packetFrameNumNeed(102000.0)
+13/270
+paramHashtable({}) answerMessageSize(50) nodeNum(800) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(37965.31600000188) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(167450.0) packetFrameNumNeed(167450.0)
+EcstaAlg isSuccess(true) consumedEnergy(33580.120000002455) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(135500.0) packetFrameNumNeed(135500.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(30192.624000006603) queryResultCorrectRate(0.9969418960244648) queryNodeNum(0) itineraryNodeSize(553) packetFrameNum(123300.0) packetFrameNumNeed(123300.0)
+14/270
+paramHashtable({}) answerMessageSize(50) nodeNum(960) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(55274.072000005435) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(200650.0) packetFrameNumNeed(200650.0)
+EcstaAlg isSuccess(true) consumedEnergy(48172.012000005736) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(162650.0) packetFrameNumNeed(162650.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(44885.38800001191) queryResultCorrectRate(0.9974554707379135) queryNodeNum(0) itineraryNodeSize(570) packetFrameNum(149100.0) packetFrameNumNeed(149100.0)
+15/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1120) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(76161.58000001214) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(233750.0) packetFrameNumNeed(233750.0)
+EcstaAlg isSuccess(true) consumedEnergy(70258.66400001248) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(209050.0) packetFrameNumNeed(209050.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(58145.07200001811) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(540) packetFrameNum(164650.0) packetFrameNumNeed(164650.0)
+16/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1280) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(104253.66000002107) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(265500.0) packetFrameNumNeed(265500.0)
+EcstaAlg isSuccess(true) consumedEnergy(92656.38000002068) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(235500.0) packetFrameNumNeed(235500.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(75118.3000000014) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(558) packetFrameNum(186500.0) packetFrameNumNeed(186500.0)
+17/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1440) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(128187.08000003062) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(295750.0) packetFrameNumNeed(295750.0)
+EcstaAlg isSuccess(true) consumedEnergy(114244.58800002553) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(261350.0) packetFrameNumNeed(261350.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(92139.29999996524) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(550) packetFrameNum(204750.0) packetFrameNumNeed(204750.0)
+18/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1600) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(2) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(153637.37600003733) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(323950.0) packetFrameNumNeed(323950.0)
+EcstaAlg isSuccess(true) consumedEnergy(138949.38400002674) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(285800.0) packetFrameNumNeed(285800.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(110321.00799992227) queryResultCorrectRate(0.9984301412872841) queryNodeNum(0) itineraryNodeSize(535) packetFrameNum(221600.0) packetFrameNumNeed(221600.0)
+19/270
+paramHashtable({}) answerMessageSize(50) nodeNum(320) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+NHSensor.NHSensorSim.exception.SensornetBaseException: There is too much event
+	at NHSensor.NHSensorSim.core.Simulator.handle(Simulator.java:55)
+	at NHSensor.NHSensorSim.events.IDCTraverseSectorInRectEvent.handle(IDCTraverseSectorInRectEvent.java:80)
+	at NHSensor.NHSensorSim.events.SimpleEventListener.handle(SimpleEventListener.java:19)
+	at NHSensor.NHSensorSim.core.Simulator.handle(Simulator.java:71)
+	at NHSensor.NHSensorSim.algorithm.RestaIDCFarMulticastQueryAlg.idcTraverse(RestaIDCFarMulticastQueryAlg.java:252)
+	at NHSensor.NHSensorSim.algorithm.RestaIDCFarMulticastQueryAlg.run(RestaIDCFarMulticastQueryAlg.java:267)
+	at NHSensor.NHSensorSim.papers.EST.RestaIDCFarMulticastQueryEnergyExperiment.run(RestaIDCFarMulticastQueryEnergyExperiment.java:41)
+	at NHSensor.NHSensorSim.papers.EST.ExperimentUtil.energy(ExperimentUtil.java:112)
+	at NHSensor.NHSensorSim.papers.EST.ExperimentUtil.showAndLogEnergy(ExperimentUtil.java:138)
+	at NHSensor.NHSensorSim.papers.EST.energy.NodeNumEnergy.main(NodeNumEnergy.java:24)
+SWinFlood isSuccess(true) consumedEnergy(8018.351999999935) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(72900.0) packetFrameNumNeed(72900.0)
+EcstaAlg isSuccess(true) consumedEnergy(6533.167999999931) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(59350.0) packetFrameNumNeed(59350.0)
+RestaIDCFarMulticastQuery isSuccess(false) consumedEnergy(3062.1439999999106) queryResultCorrectRate(0.5378787878787878) queryNodeNum(0) itineraryNodeSize(197) packetFrameNum(26800.0) packetFrameNumNeed(26800.0)
+20/270
+paramHashtable({}) answerMessageSize(50) nodeNum(480) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(15605.66799999985) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(101600.0) packetFrameNumNeed(101600.0)
+EcstaAlg isSuccess(true) consumedEnergy(13880.451999999923) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(82400.0) packetFrameNumNeed(82400.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(11004.94000000103) queryResultCorrectRate(0.9787234042553191) queryNodeNum(0) itineraryNodeSize(483) packetFrameNum(75500.0) packetFrameNumNeed(75500.0)
+21/270
+paramHashtable({}) answerMessageSize(50) nodeNum(640) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(26310.376000000175) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(132200.0) packetFrameNumNeed(132200.0)
+EcstaAlg isSuccess(true) consumedEnergy(22319.380000000376) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(107000.0) packetFrameNumNeed(107000.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(18799.476000004997) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(532) packetFrameNum(100200.0) packetFrameNumNeed(100200.0)
+22/270
+paramHashtable({}) answerMessageSize(50) nodeNum(800) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(38763.92800000095) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(160100.0) packetFrameNumNeed(160100.0)
+EcstaAlg isSuccess(true) consumedEnergy(32282.180000001994) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(129250.0) packetFrameNumNeed(129250.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(28111.628000007742) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(555) packetFrameNum(120850.0) packetFrameNumNeed(120850.0)
+23/270
+paramHashtable({}) answerMessageSize(50) nodeNum(960) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(53007.08800000393) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(188600.0) packetFrameNumNeed(188600.0)
+EcstaAlg isSuccess(true) consumedEnergy(45133.79200000491) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(153650.0) packetFrameNumNeed(153650.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(38174.40800000933) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(572) packetFrameNum(139600.0) packetFrameNumNeed(139600.0)
+24/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1120) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(73061.61200000961) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(220150.0) packetFrameNumNeed(220150.0)
+EcstaAlg isSuccess(true) consumedEnergy(61040.056000009856) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(174200.0) packetFrameNumNeed(174200.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(50901.91200001851) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(554) packetFrameNum(153900.0) packetFrameNumNeed(153900.0)
+25/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1280) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(95488.37200001783) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(256400.0) packetFrameNumNeed(256400.0)
+EcstaAlg isSuccess(true) consumedEnergy(80693.56400001813) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(201550.0) packetFrameNumNeed(201550.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(67487.37200001036) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(535) packetFrameNum(175150.0) packetFrameNumNeed(175150.0)
+26/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1440) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(123460.82000002603) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(286750.0) packetFrameNumNeed(286750.0)
+EcstaAlg isSuccess(true) consumedEnergy(104307.34000002546) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(225500.0) packetFrameNumNeed(225500.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(86043.34399997782) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(544) packetFrameNum(194800.0) packetFrameNumNeed(194800.0)
+27/270
+paramHashtable({}) answerMessageSize(50) nodeNum(1600) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(3) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood isSuccess(true) consumedEnergy(156343.9000000394) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(320000.0) packetFrameNumNeed(320000.0)
+EcstaAlg isSuccess(true) consumedEnergy(129905.54400002853) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(0) packetFrameNum(248550.0) packetFrameNumNeed(248550.0)
+RestaIDCFarMulticastQuery isSuccess(true) consumedEnergy(106053.41199992754) queryResultCorrectRate(1.0) queryNodeNum(0) itineraryNodeSize(543) packetFrameNum(215150.0) packetFrameNumNeed(215150.0)
+28/270
+paramHashtable({}) answerMessageSize(50) nodeNum(320) nodeFailProbability(0.0) queryMessageSize(50) networkHeight(100.0) networkID(4) k(0) nodeFailModelID(0) networkWidth(100.0) gridWidthRate(17.0) resultSize(50) queryAndPatialAnswerSize(100) failNodeNum(0) queryRegionRate(0.4) radioRange(10.0) 
+SWinFlood Cannot find coordinator node inside rectangle
+Ecsta Cannot find coordinator node inside rectangle

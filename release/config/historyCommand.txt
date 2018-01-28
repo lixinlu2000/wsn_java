@@ -1,0 +1,14 @@
+vdgsa 1 600 750 0.8 0.36 40 20 1 0.4
+viwqe 1 600 750 0.8 0.36 40 20 1 0.4
+vgsa 1 600 750 0.36 40 20 1 0.4
+vdgsaNew 1 600 750 0.8 0.36 40 20 1 0.4
+vdgsaNewGridTest 600 30 30 0.8 0.36 40 20 1 0.4
+vgknn 1 600 750 30 2 20 1 0.4
+viknn 1 600 750 30 2 20 1 0.4
+vgknnUseEvent 1 600 750 30 2 20 1 0.4
+vtag 1 600 500 0.36 1 0.4
+vSWinFlood 1 600 500 0.36 1 0.4
+vEcsta 1 600 500 0.36 1 0.4
+viwqeItinerary 1 600 750 0.8 0.36 40 20 1 0.4
+vgsaItinerary 1 600 750 0.36 40 20 1 0.4
+vdgsaNewItinerary 1 600 750 0.8 0.36 40 20 1 0.4

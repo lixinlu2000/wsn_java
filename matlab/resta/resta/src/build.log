@@ -1,0 +1,105 @@
+mcc -W 'java:resta,Resta' -d 'E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src' -T 'link:lib' -v 'class{Resta:E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\f3.m,E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\f1.m,E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\f2.m}'  
+Compiler version: 4.10 (R2009a)  
+Processing include files... 
+2 item(s) added. 
+Processing directories installed with MCR... 
+The file E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive. 
+2 item(s) added. 
+Generating MATLAB path for the compiled application... 
+Created 41 path items. 
+Begin validation of MEX files: Wed Apr 20 10:54:39 2011  
+End validation of MEX files: Wed Apr 20 10:54:39 2011  
+Parsing file "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\f3.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\f1.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\f2.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "G:\MATLAB\R2009a\toolbox\compiler\deploy\deployprint.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "G:\MATLAB\R2009a\toolbox\compiler\deploy\printdlg.m" 
+	(Referenced from: "Compiler Command Line").  
+Deleting 0 temporary MEX authorization files.  
+Generating file "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\readme.txt".  
+Executing command: ""C:\Java\jdk1.6.0_01\bin\javac" -verbose -classpath "G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar" -d "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\classes" "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\Resta.java" "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\RestaMCRFactory.java" "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\RestaRemote.java" "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\package-info.java""  
+[解析开始时间 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\Resta.java] 
+[解析已完成时间 156ms] 
+[解析开始时间 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\RestaMCRFactory.java] 
+[解析已完成时间 94ms] 
+[解析开始时间 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\RestaRemote.java] 
+[解析已完成时间 0ms] 
+[解析开始时间 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta\package-info.java] 
+[解析已完成时间 0ms] 
+[源文件的搜索路径： G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar] 
+[类文件的搜索路径： C:\Java\jdk1.6.0_01\jre\lib\resources.jar,C:\Java\jdk1.6.0_01\jre\lib\rt.jar,C:\Java\jdk1.6.0_01\jre\lib\sunrsasign.jar,C:\Java\jdk1.6.0_01\jre\lib\jsse.jar,C:\Java\jdk1.6.0_01\jre\lib\jce.jar,C:\Java\jdk1.6.0_01\jre\lib\charsets.jar,C:\Java\jdk1.6.0_01\jre\classes,C:\Java\jdk1.6.0_01\jre\lib\ext\comm.jar,C:\Java\jdk1.6.0_01\jre\lib\ext\dnsns.jar,C:\Java\jdk1.6.0_01\jre\lib\ext\localedata.jar,C:\Java\jdk1.6.0_01\jre\lib\ext\sunjce_provider.jar,C:\Java\jdk1.6.0_01\jre\lib\ext\sunmscapi.jar,C:\Java\jdk1.6.0_01\jre\lib\ext\sunpkcs11.jar,G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/internal/MWComponentInstance.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/Disposable.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/Set.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/internal/MWFunctionSignature.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/internal/MWMCR.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/MWException.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/String.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/MWComponentOptions.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/List.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/internal/NativeComponentData.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/internal/NativePtr.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/pooling/Poolable.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/rmi/Remote.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/rmi/RemoteException.class)] 
+[正在检查 resta.Resta] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/MWCtfExtractLocation.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/io/File.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/MWCtfDirectorySource.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/MWCtfSource.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/Arrays.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/Error.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class)] 
+[已写入 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\classes\resta\Resta.class] 
+[正在检查 resta.RestaMCRFactory] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/MWCtfClassLoaderSource.class)] 
+[正在装入 G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar(com/mathworks/toolbox/javabuilder/internal/NativeMCR.class)] 
+[已写入 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\classes\resta\RestaMCRFactory.class] 
+[正在检查 resta.RestaRemote] 
+[正在装入 C:\Java\jdk1.6.0_01\lib\ct.sym(META-INF/sym/rt.jar/java/io/IOException.class)] 
+[已写入 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\classes\resta\RestaRemote.class] 
+[总时间 3656ms] 
+Executing command: ""C:\Java\jdk1.6.0_01\bin\jar" -vcf "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\resta.jar" -C "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\classes" ."  
+标明清单(manifest) 
+增加：resta/(读入= 0) (写出= 0)(存储了 0%) 
+增加：resta/resta.ctf(读入= 46113) (写出= 42453)(压缩了 7%) 
+增加：resta/Resta.class(读入= 4407) (写出= 1785)(压缩了 59%) 
+增加：resta/RestaMCRFactory.class(读入= 8739) (写出= 3647)(压缩了 58%) 
+增加：resta/RestaRemote.class(读入= 357) (写出= 232)(压缩了 35%) 
+Executing command: ""C:\Java\jdk1.6.0_01\bin\javadoc" -d "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html" -sourcepath "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src" -classpath "G:\MATLAB\R2009a\toolbox\javabuilder\jar\javabuilder.jar" resta"  
+正在创建目标目录： "E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\" 
+正在装入软件包 resta 的源文件... 
+正在构造 Javadoc 信息... 
+标准 Doclet 版本 1.6.0_01 
+正在构建所有软件包和类的树... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\resta/\Resta.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\resta/\RestaMCRFactory.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\resta/\RestaRemote.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\resta/\package-frame.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\resta/\package-summary.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\resta/\package-tree.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\constant-values.html... 
+正在构建所有软件包和类的索引... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\overview-tree.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\index-all.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\deprecated-list.html... 
+正在构建所有类的索引... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\allclasses-frame.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\allclasses-noframe.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\index.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\help-doc.html... 
+正在生成 E:\research\mypaper\NHSensorSim\NHSensorSim\matlab\resta\resta\src\doc\html\stylesheet.css... 
